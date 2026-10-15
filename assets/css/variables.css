@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+:root {
+/* Colors - hsl recommended if possible */
+--custom-white: hsl(0deg 0% 100%);
+--custom-grey-400: hsl(212deg 6% 44%);
+--custom-grey-500: hsl(234deg 12% 34%);
+--custom-red: hsl(0deg 78% 62%);
+--custom-cyan: hsl(180deg 62% 55%);
+--custom-blue: hsl(212deg 86% 64%);
+--custom-orange: hsl(34deg 97% 64%);
+
+/* Fonts */
+--font-sans: 'Poppins', Arial, sans-serif;
+
+/* Font Size */
+--fs-sm: 0.8125rem;         /*  13px  */
+--fs-base: 0.9375rem;       /*  15px  */
+--fs-lg: 1.25rem;           /*  20px  */
+--fs-xl: 2.25rem;           /*  36px  */
+
+/* Font weight */
+--fw-extraLight: 200;
+--fw-regular: 400;
+--fw-semiBold: 600;
+
+/* Line height */
+--tracking-base: 0;
+--tracking-wide: 0.015625rem;
+
+
+/* Letter spacing */
+--line-1: 1;
+--line-3: 1.35;
+--line-4: 1.4;
+--line-6: 1.6;
+
+/* Spacing */
+--spacing-100: 0.5rem;        /* 8px  */
+--spacing-200: 1rem;          /* 16px */
+--spacing-300: 1.5rem;        /* 24px */
+--spacing-400: 2rem;          /* 32px */
+--spacing-500: 2.5rem;        /* 40px */
+
+/* Radius */
+
+
+/* Theme variables */
+
+}
+
+/* Text Presets */
+.text-preset-1 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-semiBold);
+  font-size: var(--fs-xl);
+  line-height: var(--line-4);
+  letter-spacing: var(--tracking-wide);
+}
+
+.text-preset-2 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-extraLight);
+  font-size: var(--fs-xl);
+  line-height: var(--line-4);
+  letter-spacing: var(--tracking-wide);
+}
+
+.text-preset-3 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-semiBold);
+  font-size: var(--fs-lg);
+  line-height: var(--line-3);
+  letter-spacing: var(--tracking-base);
+}
+
+.text-preset-4 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-base);
+  line-height: var(--line-4);
+  letter-spacing: var(--tracking-base);
+}
+
+.text-preset-5 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-sm);
+  line-height: var(--line-6);
+  letter-spacing: var(--tracking-base);
+}
