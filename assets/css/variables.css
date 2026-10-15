@@ -20,6 +20,7 @@
 :root {
 /* Colors - hsl recommended if possible */
 --custom-white: hsl(0deg 0% 100%);
+--custom-snow: hsl(0, 0%, 98%);
 --custom-grey-400: hsl(212deg 6% 44%);
 --custom-grey-500: hsl(234deg 12% 34%);
 --custom-red: hsl(0deg 78% 62%);
@@ -43,6 +44,7 @@
 
 /* Line height */
 --tracking-base: 0;
+--tracking-wide-sm: 0.00625rem;
 --tracking-wide: 0.015625rem;
 
 
@@ -60,49 +62,13 @@
 --spacing-500: 2.5rem;        /* 40px */
 
 /* Radius */
-
+--radius-none: 0;
+--radius-sm: 0.5rem;           /* 8px */
 
 /* Theme variables */
+--body-bg: var(--custom-snow);
 
+--font-primary: var(--custom-grey-400);
+--font-secondary: var(--custom-grey-500);
 }
 
-/* Text Presets */
-.text-preset-1 {
-  font-family: var(--font-sans);
-  font-weight: var(--fw-semiBold);
-  font-size: var(--fs-xl);
-  line-height: var(--line-4);
-  letter-spacing: var(--tracking-wide);
-}
-
-.text-preset-2 {
-  font-family: var(--font-sans);
-  font-weight: var(--fw-extraLight);
-  font-size: var(--fs-xl);
-  line-height: var(--line-4);
-  letter-spacing: var(--tracking-wide);
-}
-
-.text-preset-3 {
-  font-family: var(--font-sans);
-  font-weight: var(--fw-semiBold);
-  font-size: var(--fs-lg);
-  line-height: var(--line-3);
-  letter-spacing: var(--tracking-base);
-}
-
-.text-preset-4 {
-  font-family: var(--font-sans);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-base);
-  line-height: var(--line-4);
-  letter-spacing: var(--tracking-base);
-}
-
-.text-preset-5 {
-  font-family: var(--font-sans);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-sm);
-  line-height: var(--line-6);
-  letter-spacing: var(--tracking-base);
-}
