@@ -1,0 +1,22 @@
+.main-section {
+  text-align: center;
+  line-height: var(--line-4);
+  letter-spacing: var(--tracking-wide-sm);
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+  background-color: var(--custom-white);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-400);
+  width: 19.625rem;
+  height: 15.625rem;
+  box-shadow: 0 0.9375rem 1.875rem -0.6875rem hsl(213, 47%, 67% / 0.5);
+
+  & .img-div {
+    display: flex;
+    justify-content: end;
+  }
+}

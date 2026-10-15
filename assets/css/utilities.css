@@ -1,0 +1,24 @@
+.bold-text {
+  font-weight: var(--fw-semiBold);
+}
+
+.icon-size {
+  width: 4rem;
+  height: 4rem;
+}
+
+.red-tab {
+  border-top: 0.25rem solid var(--custom-red);
+}
+
+.cyan-tab {
+  border-top: 0.25rem solid var(--custom-cyan);
+}
+
+.blue-tab {
+  border-top: 0.25rem solid var(--custom-blue);
+}
+
+.orange-tab {
+  border-top: 0.25rem solid var(--custom-orange);
+}
