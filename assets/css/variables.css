@@ -42,13 +42,13 @@
 --fw-regular: 400;
 --fw-semiBold: 600;
 
-/* Line height */
+/* Letter spacing */
 --tracking-base: 0;
 --tracking-wide-sm: 0.00625rem;
 --tracking-wide: 0.015625rem;
 
 
-/* Letter spacing */
+/* Line height */
 --line-1: 1;
 --line-3: 1.35;
 --line-4: 1.4;

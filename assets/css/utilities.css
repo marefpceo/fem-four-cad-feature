@@ -8,17 +8,17 @@
 }
 
 .red-tab {
-  border-top: 0.25rem solid var(--custom-red);
+  border-top-color: var(--custom-red);
 }
 
 .cyan-tab {
-  border-top: 0.25rem solid var(--custom-cyan);
+  border-top-color: var(--custom-cyan);
 }
 
 .blue-tab {
-  border-top: 0.25rem solid var(--custom-blue);
+  border-top-color: var(--custom-blue);
 }
 
 .orange-tab {
-  border-top: 0.25rem solid var(--custom-orange);
+  border-top-color: var(--custom-orange);
 }

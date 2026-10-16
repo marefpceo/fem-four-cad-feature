@@ -10,6 +10,8 @@
   gap: var(--spacing-400);
   background-color: var(--custom-white);
   border-radius: var(--radius-sm);
+  border-top-width: 0.25rem;
+  border-top-style: solid;
   padding: var(--spacing-400);
   width: 19.625rem;
   height: 15.625rem;

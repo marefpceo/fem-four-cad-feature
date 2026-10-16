@@ -29,26 +29,30 @@
   @media (min-width: 48rem) {
     .card-1 {
       grid-area: supervisor;
+      justify-self: center;
     }
 
     .card-2 {
       grid-area: team;
+      justify-self: center;
     }
 
     .card-3 {
       grid-area: karma;
+      justify-self: center;
     }
 
     .card-4 {
       grid-area: calculator;
+      justify-self: center;
     }
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-      '. team team .'
-      'supervisor supervisor karma karma'
-      '. calculator calculator .';
+      'team team'
+      'supervisor karma'
+      'calculator calculator';
   }
 
   @media (min-width: 90rem) {
