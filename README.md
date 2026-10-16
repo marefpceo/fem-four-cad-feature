@@ -45,19 +45,19 @@ Users should be able to:
 
 ### What I learned
 
+For this project, what I learned most was how to utilize the `grid-template-area` property. This property allowed the cards to be arranged in an order that did not conform to the logical flow of the document. 
+
 
 ### Continued development
 
+I will continue to build on my foundation of designing responsive layouts by continuing to add and utilize various CSS Grid tools. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS-Tricks](https://css-tricks.com/) - This is a helpful website for explaining and showing how to accomplish various CSS tricks and techniques.
 
 ## Author
 
 - Website - [Lamar S.](https://www.lamar-stevens.com)
 - Frontend Mentor - [@marefpceo](https://www.frontendmentor.io/profile/marefpceo)
 - Twitter - [@stevens14704](https://www.twitter.com/stevens14704)
-
-## Acknowledgments
